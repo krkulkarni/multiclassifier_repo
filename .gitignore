@@ -1,0 +1,8 @@
+data/interim/*
+data/raw/alcohol_glm_output/*
+data/raw/cannabis_glm_output/*
+data/raw/*
+**/__pycache__/*
+**/.DS_Store
+
+# Q: how to undo git add?
