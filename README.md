@@ -17,7 +17,7 @@ The workflow is organized into several Jupyter notebooks, supported by reusable 
 2.  **Create and activate a virtual environment:** (Recommended)
     *   Using Conda:
         ```bash
-        conda env create -f environment.yml # If environment.yml is provided
+        conda env create -n <env_name> python=3.11
         conda activate <your-env-name>
         ```
     *   Using venv:
