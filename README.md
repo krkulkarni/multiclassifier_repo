@@ -48,6 +48,7 @@ Input data is expected to be organized within the `data/` directory following st
 Update paths in the notebook configuration cells if your data resides elsewhere.
 
 ## Project Structure
+```
 multiclassifier_repo/
 ├── data/
 │ ├── raw/
@@ -87,7 +88,7 @@ multiclassifier_repo/
 ├── environment.yml # Conda environment file (optional)
 ├── requirements.txt # Pip requirements file
 └── README.md # This file
-
+```
 
 ## Workflow and Notebook Roles
 
