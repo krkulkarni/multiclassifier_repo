@@ -31,7 +31,6 @@ The workflow is organized into several Jupyter notebooks, supported by reusable 
     ```bash
     pip install -r requirements.txt
     ```
-    *(Ensure `requirements.txt` lists all necessary packages like numpy, pandas, scikit-learn, nilearn, matplotlib, seaborn, plotly, networkx, joblib, PyYAML etc.)*
 
 ## Data
 
@@ -45,7 +44,7 @@ Input data is expected to be organized within the `data/` directory following st
 *   `data/interim/`: Stores intermediate data generated during processing (e.g., combined FC data `.npz`, PCA outputs).
 *   `analysis_results/neurosynth_maps/`: Expected location for downloaded Neurosynth statistical maps (`.nii.gz`).
 
-Update paths in the notebook configuration cells if your data resides elsewhere.
+Update paths in the notebook configuration cells if your data is stored elsewhere.
 
 ## Project Structure
 ```
